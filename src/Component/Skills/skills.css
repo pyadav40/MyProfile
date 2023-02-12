@@ -1,0 +1,99 @@
+.main
+{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    background-color:#2F9599;
+    width: 100%;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Jura', sans-serif;
+}
+.skills
+{
+    /* background-color:rgb(58, 58, 59); */
+    background-color: #EC2049;
+    display: flex;
+    width: 50%;
+    min-height: 60vh;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    border-radius: 20px;
+    padding-top: 30px;
+}
+
+
+.Sklll-Cont
+{   
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    
+}
+.p-bar
+{
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    /* background:#DE1BCAFF; */
+
+}
+.p-bar label
+{
+    flex-basis: 40%;
+}
+
+progress {
+    border-radius: 7px; 
+    flex-basis: 60%;
+    height: 22px;
+    box-shadow: 1px 1px 4px rgba(36, 35, 35, 0.2);
+  }
+  progress::-webkit-progress-bar {
+    background-color: #000000FF;
+    border-radius: 7px;
+  }
+  progress::-webkit-progress-value {
+    background-color: rgb(2, 240, 232);
+    /* background-color: linear-gradient(red, yellow) ; */
+    border-radius: 7px;
+    /* box-shadow: 1px 1px 5px 3px rgba( 255, 0, 0, 0.8 ); */
+  }
+
+
+ @media only screen and (max-width:620px)
+{
+.skills 
+    {
+        justify-content: center;
+        align-items: center;
+        min-height: 60vh;
+    
+    }
+ .p-bar 
+ {
+    flex-direction: column;
+    font-size: 15px;
+    
+ }
+ .p-bar label 
+ {
+    flex-direction: column;
+    width: auto;
+ }
+ progress { 
+    flex-direction: column;
+    height: 15px;
+    box-shadow: 1px 1px 4px rgba(36, 35, 35, 0.2);
+  }
+
+  .Sklll-Cont 
+  {
+    min-height: fit-content;
+  }
+}

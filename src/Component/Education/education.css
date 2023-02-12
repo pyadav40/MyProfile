@@ -1,0 +1,154 @@
+.main
+{
+    /* background-color: #111838FF; */
+    background-color:#2F9599;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Jura', sans-serif;
+}
+.main-cont
+{
+    /* background-color: rgb(58, 58, 59); */
+    background-color: #EC2049;
+    display: flex;
+    width: 60%;
+    min-height: 70vh;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    border-radius: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: 'Jura', sans-serif;
+
+}
+.cont-three 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    min-height: 55vh;
+    margin-top: 15px;
+    width: 90%;
+    font-family: 'Jura', sans-serif;
+}
+.Grduation 
+{
+    flex-basis: 32%;
+    /* border: 5px solid wheat; */
+    background-color: #F7DB4F;
+    border-radius: 25px;
+    padding: 10px;
+    font-family: 'Jura', sans-serif;
+}
+hr 
+{
+    border: 2px solid rgba(124, 26, 50, 0.438);
+}
+.Grduation h1 
+{
+    text-align: center;
+    font-family: 'Jura', sans-serif;
+}
+.PG-Graduation
+{
+    flex-basis: 32%;
+    /* border: 5px solid wheat; */
+    background-color: #BFB9C7E0;
+    border-radius: 25px;
+    padding: 10px;
+    font-family: 'Jura', sans-serif;
+    
+}
+.PG-Graduation h1 
+{
+    text-align: center;
+    font-family: 'Jura', sans-serif;
+    
+}
+.certi 
+{
+    flex-basis: 33%;
+    /* border: 5px solid wheat; */
+    background-color: #F26B38;
+    border-radius: 25px;
+    padding: 10px;
+    font-family: 'Jura', sans-serif;
+}
+.certi h1 
+{
+    text-align: center;
+    font-family: 'Jura', sans-serif;
+
+}
+
+strong 
+{
+    padding-left: 5px;
+    font-size: 20px;
+    font-family: 'Jura', sans-serif;
+}
+
+@media only screen and (min-width:600px) and (max-width: 1400px){
+    .cont-three {
+      flex-direction: column;
+      font-size: 15px;
+      /* justify-content: space-between; */
+      word-wrap: inherit;
+    }
+    .main-cont
+    {
+        width: 80%;
+        padding: 15px;
+        margin-top: 100px;
+        margin-bottom: 30%;
+    }
+    .Grduation 
+    {
+        margin-bottom: 10px;
+    }
+    .PG-Graduation {
+        margin-bottom: 10px;
+    }
+    
+    .certi 
+    {
+        margin-bottom: 10px;
+    }
+}
+
+/* ------------------------------ */
+
+@media only screen and (min-width:368px) and (max-width: 600px)
+{
+    .cont-three {
+        flex-direction: column;
+        font-size: 15px;
+        /* justify-content: space-between; */
+        word-wrap: inherit;
+      }
+      .main-cont
+      {
+        margin-top: 100px;
+          width: 80%;
+          padding: 10px;
+          margin-bottom: 30%;
+      }
+      .Grduation 
+      {
+          margin-bottom: 5px;
+      }
+      .PG-Graduation 
+      {
+          margin-bottom: 5px;
+      }
+      .certi 
+      {
+          margin-bottom: 10px;
+      }
+}
